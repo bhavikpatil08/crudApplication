@@ -1,0 +1,8 @@
+package com.demo.crudApplication.repository;
+
+import com.demo.crudApplication.model.Subject;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface SubjectRepository extends JpaRepository<Subject, Long> {
+}
+
